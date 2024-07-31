@@ -2,6 +2,7 @@
 #include <optional>
 #include <string>
 #include <vector>
+#include <functional>
 
 #define SHEN_PUBLIC_API __attribute__((visibility("default"))) __attribute__((used))
 
