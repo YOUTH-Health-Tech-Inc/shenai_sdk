@@ -5,6 +5,7 @@ import 'dart:developer';
 import 'dart:typed_data' show Uint8List, Float64List;
 
 class ShenaiSdk {
+
   static Future<InitializationResult> initialize(String apiKey, String userId, {InitializationSettings? settings}) async {
     var response = await _api.initialize(apiKey, userId, settings);
     return response.result;
